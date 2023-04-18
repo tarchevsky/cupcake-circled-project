@@ -1,0 +1,14 @@
+.footer {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	font-size: 0.7rem;
+
+	.logo {
+		font-size: 10px;
+	}
+
+	.container {
+		height: 100%;
+	}
+}

@@ -1,0 +1,28 @@
+.main {
+	position: relative;
+	min-height: 600px;
+
+	&-video {
+		position: absolute;
+		inset-block-start: 0;
+		inset-inline-start: 0;
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		border-radius: 50px;
+		box-shadow: -3px 0px 36px 0px rgba(0, 0, 0, 0.1);
+		filter: brightness(0.7);
+	}
+
+	&-slogan {
+		position: absolute;
+		inset-block-start: 50%;
+		inset-inline-start: 50%;
+		transform: translateY(-50%) translateX(-50%);
+		text-align: center;
+		color: #fff;
+		font-family: 'Prata', serif;
+		font-size: 70px;
+		letter-spacing: 3px;
+	}
+}
